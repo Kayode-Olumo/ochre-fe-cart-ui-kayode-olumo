@@ -13,8 +13,3 @@ Before/after or a quick note like “matches Figma spacing + type”.
 
 ### Tests
 What’s covered (RTL/unit), and what you manually checked.
-
-### Checklist
-- [ ] a11y pass (labels, focus, alt text)
-- [ ] matches Figma
-- [ ] no unused files (trim shadcn extras)
