@@ -10,7 +10,7 @@ export function CartEmpty() {
       </div>
       <h2 className="text-2xl font-semibold text-foreground mb-2">Your cart is empty</h2>
       <p className="text-muted-foreground mb-6 max-w-sm">
-        Looks like you haven't added anything to your cart yet. Start shopping to fill it up!
+        Looks like you haven&apos;t added anything to your cart yet. Start shopping to fill it up!
       </p>
       <Button asChild size="lg">
         <Link href="#">Continue Shopping</Link>
