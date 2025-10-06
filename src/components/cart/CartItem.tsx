@@ -33,7 +33,7 @@ export function CartItem({ item, onRemove }: CartItemProps) {
             size="icon"
             onClick={() => onRemove(item.id)}
             aria-label={`Remove ${item.title}`}
-            className="flex-shrink-0 h-8 w-8 text-destructive hover:text-destructive hover:bg-transparent"
+            className="flex-shrink-0 h-8 w-8 text-destructive hover:text-destructive hover:bg-transparent cursor-pointer"
           >
             <Trash2 className="h-5 w-5" />
           </Button>
